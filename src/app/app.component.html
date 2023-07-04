@@ -1,0 +1,19 @@
+<!-- navbar start -->
+<nav class="navbar navbar-expand-lg fixed-top" [ngStyle]="navbg">
+  <div class="container-fluid m-3">
+    <a class="navbar-brand" routerLink="">【﻿ＭＯＶＩＥ】</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <form class="d-flex" role="search" [formGroup]="searchForm" (ngSubmit)="submitForm()">
+          <input class="form-control me-2 mr-4" type="search" placeholder="Search" aria-label="Search" formControlName="movieName">
+        </form>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+<router-outlet></router-outlet>

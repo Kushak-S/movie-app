@@ -1,0 +1,20 @@
+img{
+    width: 100%;
+    height: auto;
+    border-radius: .8rem;
+}
+h1{
+    color: #ffffff;
+    font-weight: bold;
+}
+p{
+    color: #ffffff;
+}
+a{
+    color: #000000;
+    background-color: #ff0000;
+}
+a:hover{
+    color: #000000;
+    background-color: #fe4a4a;
+}
